@@ -4,3 +4,4 @@ resources:
 - ../base
 patchesStrategicMerge:
 - vote_staging_deployment.yaml
+- vote_services.yaml
