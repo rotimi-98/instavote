@@ -16,3 +16,7 @@ commonLabels:
   env: staging
 commonAnnotations:
   supported-by: "8378185 Inc"
+configMapGenerator:
+- name: vote-options
+  envs:
+  - options.env  
