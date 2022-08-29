@@ -13,6 +13,6 @@ spec:
       - image: schoolofdevops/vote:v3
         name: vote
         envFrom:
-        - configMapRef:
-            name: vote-options
-            optional: true
+          - configMapRef:
+              name: vote-options
+              optional: true
