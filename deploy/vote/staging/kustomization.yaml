@@ -5,3 +5,14 @@ resources:
 patchesStrategicMerge:
 - vote_staging_deployment.yaml
 - vote_services.yaml
+replicas:
+- name: vote
+  count: 7 
+images:
+- name: schoolofdevops/vote:v3
+  newTag: v4
+commonLabels:
+  project: instavote
+  env: staging
+commonAnnotations:
+  supported-by: "8378185 Inc"
