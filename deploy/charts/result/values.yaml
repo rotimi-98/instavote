@@ -5,8 +5,7 @@
 replicaCount: 1
 
 image:
-  #repository: schoolofdevops/vote-result
-  repository: rotimi98/result:v1
+  repository: schoolofdevops/vote-result
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
   tag: "latest"
