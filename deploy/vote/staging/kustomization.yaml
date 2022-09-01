@@ -10,7 +10,7 @@ replicas:
   count: 7 
 images:
 - name: schoolofdevops/vote:v3
-  newTag: v7
+  newTag: v8
 commonLabels:
   project: instavote
   env: staging
