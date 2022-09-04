@@ -7,11 +7,11 @@ patchesStrategicMerge:
 - vote_services.yaml
 replicas:
 - name: vote
-  count: 7 
+  count: 7
 images:
 - name: schoolofdevops/vote:v3
   newName: rotimi98/vote
-  newTag: v8 # {"$imagepolicy": "flux-system:vote:tag"}
+  newTag: main-ace9e110-1662258131 # {"$imagepolicy": "flux-system:vote:tag"}
 commonLabels:
   project: instavote
   env: staging
